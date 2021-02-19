@@ -1,0 +1,22 @@
+{
+    "name": "powerpush/powerframe",
+    "description": "A Simple and small MVC microframework to create REST API's.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renan Souza Rodrigues",
+            "email": "devs@powerpush.com.br"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "autoload": {
+        "psr-4": {
+            "powerpush\\powerframe\\core\\": "core/"
+        }
+    }
+}
